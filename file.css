@@ -1,0 +1,161 @@
+/* BODY */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h2 {
+    color: #ff4b5c;
+    font-size: 28px;
+}
+
+/* NAVIGATION */
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff4b5c;
+}
+
+/* BUTTONS */
+button {
+    background: linear-gradient(45deg, #ff4b5c, #ff7eb3);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #ff7eb3, #ff4b5c);
+}
+
+/* HERO SECTION */
+#home {
+    background: white;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* GENERATOR BOX */
+#generator {
+    background: white;
+    margin: 20px auto;
+    padding: 30px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* INPUT */
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* RANGE */
+input[type="range"] {
+    width: 70%;
+}
+
+/* FIELDSET */
+fieldset {
+    border: 2px dashed #ff7eb3;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff0f5;
+}
+
+/* SECTIONS */
+section {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* TABLE */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+td:hover {
+    background: #fce4ec;
+    transform: scale(1.05);
+}
+
+/* PRICING TABLE */
+#pricing table {
+    border: 2px solid #ddd;
+}
+
+#pricing th {
+    background: #ff4b5c;
+    color: white;
+    padding: 10px;
+}
+
+#pricing td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* PROGRESS BAR */
+progress {
+    width: 60%;
+    height: 18px;
+    accent-color: #ff4b5c;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* HOVER EFFECT FOR LINKS */
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff7eb3;
+}
